@@ -1,12 +1,15 @@
 package com.example.recyclerview;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.text.Layout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -54,6 +57,17 @@ public class ArrayAdapter extends RecyclerView.Adapter<ArrayAdapter.ViewHolder> 
             @Override
             public void onClick(View v) {
                 Log.d(TAG,"onClick: clicked on" +mImageNames.get(position));
+                AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+
+                View imageView =  LayoutInflater.from(mContext).inflate(R.layout.image_view,null,false);
+
+                builder.setView(imageView);
+                ImageView imageView1 = imageView.findViewById(R.id.view_image);
+
+                Glide.with(mContext).asBitmap().load(mImage.get(position)).into(imageView1);
+
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
                 Toast.makeText(mContext,mImageNames.get(position),Toast.LENGTH_SHORT).show();
 
             }

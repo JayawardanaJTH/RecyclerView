@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private void initRecyclerView() {
         Log.d(TAG,"initRecyclerView: started");
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        //ArrayAdapter is the class defined by manually, which is create recycler layout
         ArrayAdapter adapter = new ArrayAdapter(mNames,mImageUrls,this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
