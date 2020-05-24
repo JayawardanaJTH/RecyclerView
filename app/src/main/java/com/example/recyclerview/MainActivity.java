@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG,"initImageBitmaps: started");
         mImageUrls.add("https://lp-cms-production.imgix.net/2019-06/b4fbc706dab2a70a96588309ed268a1a-sri-lanka.jpeg");
         mNames.add("Seegiriya");
-        mImageUrls.add("https://lp-cms-production.imgix.net/2019-06/b4fbc706dab2a70a96588309ed268a1a-sri-lanka.jpeg");
+        mImageUrls.add("https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/06/Demodara-Nine-Arch-Bridge.jpg");
         mNames.add("Ella");
-        mImageUrls.add("https://lp-cms-production.imgix.net/2019-06/b4fbc706dab2a70a96588309ed268a1a-sri-lanka.jpeg");
+        mImageUrls.add("https://lh3.googleusercontent.com/proxy/HxAlAgbXR7a_nmUdDNmICxaRJ0gwTjlkoXbRnFpOM2JpsgyOrgaumvkqkfwGLO1apQL363UXpz_XXR0I7PAI8PtfPhwxhZx1bS4WznJnhfxG2F1O13USAuXgYERjvHNqVMgJvG4armWjNccDV-A6dvz90Ug9KloU1pf_83bHPcNsL6tAD39VoGOKLEwWSgXD0kT9eRu0fG7v_BIdd_r2vmjoskk");
         mNames.add("Kalutara");
-        mImageUrls.add("https://lp-cms-production.imgix.net/2019-06/b4fbc706dab2a70a96588309ed268a1a-sri-lanka.jpeg");
+        mImageUrls.add("https://traveltriangle.com/blog/wp-content/uploads/2017/08/1010.jpg");
         mNames.add("Colombo");
-        mImageUrls.add("https://lp-cms-production.imgix.net/2019-06/b4fbc706dab2a70a96588309ed268a1a-sri-lanka.jpeg");
+        mImageUrls.add("https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2019/12/Sri-Dalada-Maligawa_3rd-Dec.jpg");
         mNames.add("Kandy");
-        mImageUrls.add("https://lp-cms-production.imgix.net/2019-06/b4fbc706dab2a70a96588309ed268a1a-sri-lanka.jpeg");
-        mNames.add("Jaffna");
+        mImageUrls.add("https://s27922.pcdn.co/wp-content/uploads/2016/07/srilankaeastcoast-6.jpg.optimal.jpg");
+        mNames.add("Arugambe");
         initRecyclerView();
 
     }
